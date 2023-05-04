@@ -1,5 +1,8 @@
 name: Multiple shells commands
-on: [push]
+on: 
+  push:
+    branches:
+      - main
 jobs:
   run-shell-command:
     runs-on: ubuntu-22.04
