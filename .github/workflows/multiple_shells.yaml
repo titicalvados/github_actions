@@ -1,5 +1,7 @@
 name: Multiple shells commands
 on: [push]
+name: Multiple shells commands
+on: [push]
 jobs:
   run-shell-command:
     runs-on: ubuntu-22.04
