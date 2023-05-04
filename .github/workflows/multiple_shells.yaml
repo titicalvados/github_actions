@@ -1,7 +1,8 @@
 name: Multiple shells commands
-on: 
+on:
   push:
-    branches:
+    # Sequence of patterns matched against refs/heads
+    branches:    
       - main
 jobs:
   run-shell-command:
